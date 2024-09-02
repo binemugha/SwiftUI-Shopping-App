@@ -33,6 +33,9 @@ struct OnBoardingScreenView: View {
                 }
                 Spacer()
             }
+
+            .navigationTitle("")
+            .navigationBarHidden(false)
         }
     }
 }
